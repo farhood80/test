@@ -1,0 +1,10 @@
+[project]
+name = "ai-ddos-gateway"
+version = "0.1.0"
+description = "AI-driven DDoS mitigation gateway prototype"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
